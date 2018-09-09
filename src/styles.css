@@ -1,1 +1,54 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    color: #a8d0e6;
+}
+
+.highlight{
+    background-color: yellow;
+}
+.explanation{
+    font-style: italic;
+    background-color: lightblue;
+}
+
+.main-section {
+    min-height: calc(100vh);
+    background-color: white;
+    margin-top: 150px;
+}
+.main-section a {
+    color: black;
+    text-decoration: underline;
+}
+
+.main-section a:hover {
+    color: #a8d0e6;
+}
+.btn-primary {
+    background-color: black;
+    border-color: black;
+}
+.btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: grey !important;
+    border-color: grey;
+}
+.dropdown-menu a:hover {
+    background-color: #a8d0e6;
+}
+.breadcrumb {
+    display: inline-block;
+}
+.breadcrumb:first-child:before {
+    display: none;
+}
+.breadcrumb:before {
+    content: '>';
+    vertical-align: top;
+    display: inline-block;
+    margin: 0 10px 0 8px;
+    -webkit-font-smoothing: antialiased;
+}

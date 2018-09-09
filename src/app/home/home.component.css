@@ -1,0 +1,17 @@
+.g-icon { font-size: 72px; }
+
+.menu-item a:hover {
+    color: #a8d0e6;
+}
+.menu-item a {
+    color: black;
+}
+.menu-item {
+    width: 200px;
+    text-align: center;
+}
+.home-section{
+    min-height: calc(100vh);
+    background-color: white;
+    margin-top: 60px;
+}

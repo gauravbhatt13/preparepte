@@ -1,0 +1,28 @@
+<section class="main-section">
+  <h4 class="mt-3">You will hear a question. Please give a simple and short answer. Often just one word or a few words
+    is enough.</h4>
+  <ul class="nav nav-tabs pt-3" id="myTab" role="tablist">
+    <li class="nav-item" *ngFor="let i of [1,2,3,4,5,6,7,8,9,10]">
+      <a class="nav-link" [ngClass]="{'active': i==1}" data-toggle="tab" [attr.href]="'#test' + i" role="tab"
+        [attr.aria-controls]="'test' + i" aria-selected="true">
+        Question{{i}}
+      </a>
+    </li>
+  </ul>
+  <div class="tab-content" id="myTabContent">
+    <div *ngFor="let i of [1,2,3,4,5,6,7,8,9,10]" class="tab-pane fade show pt-3" [ngClass]="{'active': i==1}"
+      [attr.id]="'test' + i" role="tabpanel" [attr.aria-labelledby]="'test' + i">
+      <p>Play Question {{i}}</p>
+      <audio controls>
+        <source [attr.src]="'/assets/Prompts/3 Answer short question/Answer short question_Item '+ i + '/Prompt_Answer_short_question_Item_' + i + '.mp3'"
+          type="audio/mpeg"> Your browser does not support the audio element.
+      </audio>
+      <button class="btn btn-sm btn-primary float-right" data-toggle="collapse" [attr.data-target]="'#ans'+ i">Toggle
+        Answer</button>
+      <div [attr.id]="'ans'+i" class="collapse">
+        <p>{{answers[i-1].question}}</p>
+        Correct: {{answers[i-1].correct}}<br> Incorrect: {{answers[i-1].incorrect}}
+      </div>
+    </div>
+  </div>
+</section>
