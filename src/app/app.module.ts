@@ -30,7 +30,6 @@ import { SelectMissingWordComponent } from './listening-module/select-missing-wo
 import { HighlightIncorrectWordsComponent } from './listening-module/highlight-incorrect-words/highlight-incorrect-words.component';
 import { WriteFromDictationComponent } from './listening-module/write-from-dictation/write-from-dictation.component';
 import { CatalogueComponent } from './catalogue/catalogue.component';
-import {BreadcrumbModule} from 'angular2-crumbs';
 
 @NgModule({
   declarations: [
@@ -65,8 +64,7 @@ import {BreadcrumbModule} from 'angular2-crumbs';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    BreadcrumbModule.forRoot()
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

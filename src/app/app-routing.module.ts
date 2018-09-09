@@ -28,6 +28,7 @@ import { WriteFromDictationComponent } from './listening-module/write-from-dicta
 import { CatalogueComponent } from './catalogue/catalogue.component';
 
 const routes: Routes = [
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
   { path: 'speaking', component: SpeakingComponent },
   { path: 'read-aloud', component: ReadAloudComponent },
@@ -53,11 +54,12 @@ const routes: Routes = [
   { path: 'select-missing-word', component: SelectMissingWordComponent },
   { path: 'highlight-incorrect-words', component: HighlightIncorrectWordsComponent },
   { path: 'write-from-dictation', component: WriteFromDictationComponent },
-  { path: 'catalogue', component: CatalogueComponent }
+  { path: 'catalogue', component: CatalogueComponent },
+  { path: '**', component: HomeComponent }
 ];
 
 @NgModule({
-  imports: [ RouterModule.forRoot(routes) ],
+  imports: [ RouterModule.forRoot(routes, {useHash: true}) ],
   exports: [RouterModule]
 })
 
