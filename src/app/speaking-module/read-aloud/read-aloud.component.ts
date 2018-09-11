@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Inject} from '@angular/core';
 
 @Component({
   selector: 'app-read-aloud',
@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ReadAloudComponent implements OnInit {
 
-  constructor() { }
+  constructor() {}
 
   ngOnInit() {
   }

@@ -30,10 +30,12 @@ import { SelectMissingWordComponent } from './listening-module/select-missing-wo
 import { HighlightIncorrectWordsComponent } from './listening-module/highlight-incorrect-words/highlight-incorrect-words.component';
 import { WriteFromDictationComponent } from './listening-module/write-from-dictation/write-from-dictation.component';
 import { CatalogueComponent } from './catalogue/catalogue.component';
+import { DisqusComponent } from './disqus.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    DisqusComponent,
     HomeComponent,
     ReadAloudComponent,
     SpeakingComponent,
