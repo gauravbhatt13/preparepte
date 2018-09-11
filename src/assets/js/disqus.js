@@ -5,9 +5,7 @@
 
 var disqus_config = function () {
     this.page.url = window.location;  // Replace PAGE_URL with your page's canonical URL variable
-    console.log('page url: ' + this.page.url);
     this.page.identifier = window.location.hash; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-    console.log('page url' + this.page.identifier);
 };
 
 (function () {  // DON'T EDIT BELOW THIS LINE
