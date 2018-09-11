@@ -19,7 +19,7 @@ h1, h2, h3, h4 {
     min-height: calc(100vh);
     background-color: white;
     margin-top: 100px;
-    padding-bottom: 42px
+    padding-bottom: 50px
 }
 .main-section a {
     color: black;
