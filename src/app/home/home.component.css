@@ -15,3 +15,8 @@
     background-color: white;
     margin-top: 60px;
 }
+.tips-section{
+    min-height: calc(80vh);
+    background-color: black;
+    color: white;
+}
