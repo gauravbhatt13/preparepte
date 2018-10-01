@@ -12,11 +12,28 @@
 }
 .home-section{
     min-height: calc(100vh);
-    background-color: white;
+    background-color: blanchedalmond;
     margin-top: 60px;
 }
 .tips-section{
     min-height: calc(80vh);
     background-color: black;
     color: white;
+}
+
+#footer-menu {
+    background-color: azure;
+}
+
+#footer-menu ul li {
+    color: #a8d0e6;
+}
+
+#footer-menu ul li a {
+    color: black;
+    text-decoration: underline;
+}
+
+#footer-menu ul li a:hover{
+    color: #a8d0e6;
 }
