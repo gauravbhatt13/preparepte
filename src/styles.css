@@ -56,11 +56,3 @@ h1, h2, h3, h4 {
 #disqus_thread{
     margin-top: 50px;
 }
-.tips-section{
-    min-height: calc(80vh);
-    background-color: black;
-    color: white;
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-bottom: 50px;
-}

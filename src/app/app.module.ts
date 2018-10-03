@@ -31,6 +31,7 @@ import { HighlightIncorrectWordsComponent } from './listening-module/highlight-i
 import { WriteFromDictationComponent } from './listening-module/write-from-dictation/write-from-dictation.component';
 import { CatalogueComponent } from './catalogue/catalogue.component';
 import { DisqusComponent } from './disqus.component';
+import { UsefulShortQuestionsComponent } from './blogs-module/useful-short-questions/useful-short-questions.component';
 
 @NgModule({
   declarations: [
@@ -62,7 +63,8 @@ import { DisqusComponent } from './disqus.component';
     SelectMissingWordComponent,
     HighlightIncorrectWordsComponent,
     WriteFromDictationComponent,
-    CatalogueComponent
+    CatalogueComponent,
+    UsefulShortQuestionsComponent
   ],
   imports: [
     BrowserModule,

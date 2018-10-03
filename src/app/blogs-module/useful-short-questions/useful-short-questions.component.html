@@ -1,0 +1,8 @@
+<section class="tips-section mt-5 p-5">
+  <h1>Useful short questions</h1>
+  <div class="question-answer mt-3" *ngFor="let q of questions">
+    <div class="question">Question: {{q.question}}</div>
+    <div class="answer">Answer: {{q.answer}}</div>
+  </div>
+  <app-disqus></app-disqus>
+</section>

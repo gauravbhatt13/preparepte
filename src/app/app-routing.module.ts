@@ -26,6 +26,7 @@ import { SelectMissingWordComponent } from './listening-module/select-missing-wo
 import { HighlightIncorrectWordsComponent } from './listening-module/highlight-incorrect-words/highlight-incorrect-words.component';
 import { WriteFromDictationComponent } from './listening-module/write-from-dictation/write-from-dictation.component';
 import { CatalogueComponent } from './catalogue/catalogue.component';
+import { UsefulShortQuestionsComponent } from './blogs-module/useful-short-questions/useful-short-questions.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -55,6 +56,7 @@ const routes: Routes = [
   { path: 'highlight-incorrect-words', component: HighlightIncorrectWordsComponent },
   { path: 'write-from-dictation', component: WriteFromDictationComponent },
   { path: 'catalogue', component: CatalogueComponent },
+  { path: 'useful-short-questions', component: UsefulShortQuestionsComponent },
   { path: '**', component: HomeComponent }
 ];
 
