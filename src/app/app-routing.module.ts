@@ -27,6 +27,8 @@ import { HighlightIncorrectWordsComponent } from './listening-module/highlight-i
 import { WriteFromDictationComponent } from './listening-module/write-from-dictation/write-from-dictation.component';
 import { CatalogueComponent } from './catalogue/catalogue.component';
 import { UsefulShortQuestionsComponent } from './blogs-module/useful-short-questions/useful-short-questions.component';
+import { ListOfEssaysComponent } from './blogs-module/list-of-essays/list-of-essays.component';
+import { SampleEssaysComponent } from './blogs-module/sample-essays/sample-essays.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -57,6 +59,8 @@ const routes: Routes = [
   { path: 'write-from-dictation', component: WriteFromDictationComponent },
   { path: 'catalogue', component: CatalogueComponent },
   { path: 'useful-short-questions', component: UsefulShortQuestionsComponent },
+  { path: 'list-of-essays', component: ListOfEssaysComponent },
+  { path: 'sample-essays', component: SampleEssaysComponent },
   { path: '**', component: HomeComponent }
 ];
 

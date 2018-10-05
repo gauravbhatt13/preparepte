@@ -32,6 +32,8 @@ import { WriteFromDictationComponent } from './listening-module/write-from-dicta
 import { CatalogueComponent } from './catalogue/catalogue.component';
 import { DisqusComponent } from './disqus.component';
 import { UsefulShortQuestionsComponent } from './blogs-module/useful-short-questions/useful-short-questions.component';
+import { ListOfEssaysComponent } from './blogs-module/list-of-essays/list-of-essays.component';
+import { SampleEssaysComponent } from './blogs-module/sample-essays/sample-essays.component';
 
 @NgModule({
   declarations: [
@@ -64,7 +66,9 @@ import { UsefulShortQuestionsComponent } from './blogs-module/useful-short-quest
     HighlightIncorrectWordsComponent,
     WriteFromDictationComponent,
     CatalogueComponent,
-    UsefulShortQuestionsComponent
+    UsefulShortQuestionsComponent,
+    ListOfEssaysComponent,
+    SampleEssaysComponent
   ],
   imports: [
     BrowserModule,
