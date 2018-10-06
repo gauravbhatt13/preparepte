@@ -34,6 +34,7 @@ import { DisqusComponent } from './disqus.component';
 import { UsefulShortQuestionsComponent } from './blogs-module/useful-short-questions/useful-short-questions.component';
 import { ListOfEssaysComponent } from './blogs-module/list-of-essays/list-of-essays.component';
 import { SampleEssaysComponent } from './blogs-module/sample-essays/sample-essays.component';
+import { SampleSummariesComponent } from './blogs-module/sample-summaries/sample-summaries.component';
 
 @NgModule({
   declarations: [
@@ -68,7 +69,8 @@ import { SampleEssaysComponent } from './blogs-module/sample-essays/sample-essay
     CatalogueComponent,
     UsefulShortQuestionsComponent,
     ListOfEssaysComponent,
-    SampleEssaysComponent
+    SampleEssaysComponent,
+    SampleSummariesComponent
   ],
   imports: [
     BrowserModule,

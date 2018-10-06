@@ -29,6 +29,7 @@ import { CatalogueComponent } from './catalogue/catalogue.component';
 import { UsefulShortQuestionsComponent } from './blogs-module/useful-short-questions/useful-short-questions.component';
 import { ListOfEssaysComponent } from './blogs-module/list-of-essays/list-of-essays.component';
 import { SampleEssaysComponent } from './blogs-module/sample-essays/sample-essays.component';
+import { SampleSummariesComponent } from './blogs-module/sample-summaries/sample-summaries.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -61,6 +62,7 @@ const routes: Routes = [
   { path: 'useful-short-questions', component: UsefulShortQuestionsComponent },
   { path: 'list-of-essays', component: ListOfEssaysComponent },
   { path: 'sample-essays', component: SampleEssaysComponent },
+  { path: 'sample-summaries', component: SampleSummariesComponent },
   { path: '**', component: HomeComponent }
 ];
 
